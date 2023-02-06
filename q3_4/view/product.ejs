@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Product</title>
+</head>
+<body>
+
+    <%- include('header') %>
+
+    <form action="/addToCart" method="post">
+        <label for="id">Product ID</label>
+        <input id="id" type="number" name="id" value="<%= product.id %>">
+        <br>
+        <label for="name">Product Name</label>
+        <input id="name" type="text" name="name" value="<%= product.name %>">
+        <br>
+        <label for="id">Price</label>
+        <input id= "price" type="number" name="price" value="<%= product.price %>">
+        <br>
+        <label for="desc">Description</label>
+        <input id="desc" type="text" name="description" value="<%= product.description %>">
+        <br>
+        <label for="button"></label>
+        <input id="button" type="submit" value="Add to Cart">
+    </form>
+
+    <%- include('footer') %>
+</body>
+</html>

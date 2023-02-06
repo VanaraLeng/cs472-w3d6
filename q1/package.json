@@ -1,0 +1,15 @@
+{
+  "name": "w3d6q1",
+  "version": "1.0.0",
+  "description": "CS472-W3D6Q1 assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanara Leng",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

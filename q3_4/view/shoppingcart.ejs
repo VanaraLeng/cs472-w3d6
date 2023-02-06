@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <%- include('header') %>
+    <ul> 
+        <% for(let product of products) { %>
+        <li>
+           <h3> <%= product.name %> </h3>
+            <dl>
+                <dt>Product ID</dt>
+                <dd><%= product.id %></dd>
+                <br>
+
+                <dt>Unit Price</dt>
+                <dd> <%= product.price %> </dd>
+                <br>
+
+                <dt>Description</dt>
+                <dd> <%= product.description %> </dd>
+            </dl>
+        </li>
+        <% } %>
+    </ul>
+    
+    <a href="/"> Add more</a>
+
+    <%- include('footer') %>
+</body>
+</html>

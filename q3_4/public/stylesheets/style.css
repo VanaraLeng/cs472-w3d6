@@ -8,14 +8,14 @@ body {
 
 form {
     margin: auto;
-    width: 400px;
+    width: 600px;
     background-color:#C5E0D8;
     border-radius: 8px;
     padding: 20px;
 }
 
 input {
-    width: 160px;
+    width: 300px;
     height: 20px;
     padding: 4px;
     margin-top: 10px;
@@ -63,7 +63,7 @@ dt {
 
 dd {
     display:inline-block;
-    width: 200px;
+    width: 500px;
     padding-left: 10px;
     border: 0px;
     border-bottom: 1px;
@@ -117,4 +117,17 @@ a {
 a:visited {
     color: #B5FFE9;
     text-decoration: none;
+}
+
+.addToCardForm {
+    margin: 0;
+    width: 50px;
+    position: relative;
+    right: 0%;
+    padding: 0;
+}
+
+.addToCardForm input{
+    width: 80px;
+    texta
 }
